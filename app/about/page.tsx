@@ -22,7 +22,7 @@ export default function About() {
           </div>
           <div className="relative h-64 md:h-80 rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/pebble.jpg?height=400&width=600"
               alt="Vedavāyu Healing Center"
               layout="fill"
               objectFit="cover"
