@@ -70,7 +70,7 @@ export default function Pricing() {
                 </ul>
               </CardContent>
               <CardFooter>
-                <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">Choose Plan</Button>
+                <Button className="w-full bg-teal-600 hover:bg-teal-700 rounded-full text-white">Choose Plan</Button>
               </CardFooter>
             </Card>
           ))}

@@ -51,7 +51,7 @@ export default function Header() {
                 </li>
               </ul>
             </nav>
-            <Button className="bg-teal-600 hover:bg-teal-700 text-white hidden md:block">Book Appointment</Button>
+            <Button className="bg-teal-600 hover:bg-teal-700 text-white rounded-full hidden md:block">Book Appointment</Button>
             <Button variant="ghost" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
               <Menu className="h-6 w-6" />
             </Button>

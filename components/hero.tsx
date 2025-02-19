@@ -9,7 +9,7 @@ export default function Hero() {
           Vedavāyu integrates modern science with traditional healing to offer natural, effective, and personalized
           healthcare services without artificial medicine.
         </p>
-        <Button className="bg-white text-teal-600 hover:bg-gray-100 text-lg px-6 py-3">Discover Our Services</Button>
+        <Button className="bg-white text-teal-600 hover:bg-gray-100 rounded-full text-lg px-6 py-3">Discover Our Services</Button>
       </div>
     </section>
   )
