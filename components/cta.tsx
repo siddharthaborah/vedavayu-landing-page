@@ -8,7 +8,14 @@ export default function CTA() {
         <p className="text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto">
           Book an appointment with our experts and take the first step towards holistic well-being.
         </p>
-        <Button className="bg-white text-teal-600 rounded-full hover:bg-gray-100 text-lg px-6 py-3">Book Your Appointment</Button>
+        <a
+          href="https://wa.me/message/TV43SBJ3HAY5E1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block"
+        >
+          <Button className="bg-white text-teal-600 rounded-full hover:bg-gray-100 text-lg px-6 py-3">Book Your Appointment</Button>
+        </a>
       </div>
     </section>
   )

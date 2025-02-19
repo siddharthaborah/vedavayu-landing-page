@@ -86,7 +86,14 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Button className="bg-teal-600 hover:bg-teal-700 text-white w-full">Book Appointment</Button>
+              <a
+                href="https://wa.me/message/TV43SBJ3HAY5E1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block"
+                >
+                <Button className="bg-teal-600 rounded-full hover:bg-teal-700 text-white w-full">Book Appointment</Button>
+                </a>
               </li>
             </ul>
           </nav>

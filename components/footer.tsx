@@ -31,6 +31,13 @@ export default function Footer() {
             </ul>
           </nav>
           <div className="flex space-x-4">
+            
+          <a
+            href="https://facebook.com/vedavayuofficial"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
             <Button
               variant="outline"
               size="icon"
@@ -39,6 +46,13 @@ export default function Footer() {
               <Facebook className="h-4 w-4" />
               <span className="sr-only">Facebook</span>
             </Button>
+            </a>
+            <a
+              href="https://instagram.com/vedavayuofficial"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
             <Button
               variant="outline"
               size="icon"
@@ -47,6 +61,7 @@ export default function Footer() {
               <Instagram className="h-4 w-4" />
               <span className="sr-only">Instagram</span>
             </Button>
+            </a>
           </div>
         </div>
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
