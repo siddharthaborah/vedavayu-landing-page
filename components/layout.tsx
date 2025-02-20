@@ -23,7 +23,7 @@ export default function Layout({ children, title, description }: LayoutProps) {
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
         <meta property="og:title" content={siteTitle} />
         <meta property="og:description" content={siteDescription} />
         <meta property="og:type" content="website" />
@@ -50,4 +50,3 @@ export default function Layout({ children, title, description }: LayoutProps) {
     </div>
   )
 }
-
