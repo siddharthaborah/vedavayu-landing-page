@@ -14,7 +14,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <Image src="/vedavayu-logo.png" alt="Vedavāyu Logo" width={40} height={40} className="rounded-full" />
+            <Image src="/vedavayu-logo.png" alt="Vedavāyu Logo" width={30} height={30} className="rounded-full" />
             <div className="flex flex-col">
               <span className="text-2xl font-bold bg-gradient-to-r from-teal-600 to-cyan-600 text-transparent bg-clip-text">
                 Vedavāyu
