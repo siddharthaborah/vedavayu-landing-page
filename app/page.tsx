@@ -3,6 +3,7 @@ import Hero from "@/components/hero"
 import Services from "@/components/services"
 import Pricing from "@/components/pricing"
 import CTA from "@/components/cta"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Pricing />
       <CTA />
+      <Analytics />
     </Layout>
   )
 }
